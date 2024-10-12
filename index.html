@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Meter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <div id="quote-box">
+            <p id="quote">Click "Start" to begin typing the random text...</p>
+        </div>
+        <textarea id="input-box" placeholder="Start typing here..." disabled></textarea>
+        <div class="button-group">
+            <button id="start-button">Start</button>
+            <button id="reset-button">Reset</button>
+        </div>
+        <div class="stats">
+            <p>Time: <span id="time-value">0</span> seconds</p>
+            <p>Words per minute (WPM): <span id="wpm-value">0</span></p>
+            <p>Average WPM: <span id="avg-wpm-value">0</span></p>
+            <p>Max WPM: <span id="max-wpm-value">0</span></p>
+            <p>Final WPM: <span id="final-wpm-value">0</span></p>
+            <p>Characters typed: <span id="char-count">0</span></p>
+            <p>Errors: <span id="error-count">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
